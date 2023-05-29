@@ -1,0 +1,21 @@
+.menuItem {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+li[data-priority="default"] {
+	color: blue;
+}
+
+li[data-priority="urgent"] {
+	color: var(--holberton-red);
+}
+
+li[data-notification-type="default"] {
+	color: blue;
+}
+
+li[data-notification-type="urgent"] {
+	color: var(--holberton-red);
+}
